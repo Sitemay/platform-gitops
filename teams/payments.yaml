@@ -1,0 +1,10 @@
+apiVersion: platform.lab.local/v1alpha1
+kind: TeamNamespace
+metadata:
+  name: payments
+spec:
+  teamName: payments
+  adminGroup: payments-devs
+  quota:
+    cpu: "4"
+    memory: 8Gi
