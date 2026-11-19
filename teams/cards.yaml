@@ -1,0 +1,7 @@
+apiVersion: platform.lab.local/v1alpha1
+kind: TeamNamespace
+metadata:
+  name: cards
+spec:
+  teamName: cards
+  adminGroup: cards-devs
